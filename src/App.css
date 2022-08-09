@@ -1,4 +1,6 @@
 *{
+  user-select: none;
+  color: white;
   padding: 0;
   margin: 0;
   box-sizing:border-box;
@@ -6,11 +8,13 @@
 body{
   background: #14141f !important;
 }
+ /*
 h1,h2{
   color: #fff;
   font-weight: 500;
   font-size: 2rem;
 }
+
 p{
   color: white;
 }
@@ -25,7 +29,7 @@ ul{
   list-style:none;
   padding: 0;
   margin: 0;
-}
+}*/
 section,footer{
   padding: 60px 0px;
-}
+} 

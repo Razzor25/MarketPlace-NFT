@@ -47,7 +47,7 @@ const Header = () => {
 
 
         <div className="nav__right align-items-center d-flex gap-5">
-          <button className="btn d-flex gap-2 align-items-center">
+          <button className="btn d-flex gap-1 align-items-center">
             <span>
               <i class="ri-wallet-3-line "></i>
             </span>
