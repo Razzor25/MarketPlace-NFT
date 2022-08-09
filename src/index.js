@@ -4,7 +4,7 @@ import {BrowserRouter as Router}from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.css";
 import "remixicon/fonts/remixicon.css";
 import App from './App';
-import './index.css';
+// import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -22,10 +22,8 @@ const nav__link=[
   },
 ]
 const Header = () => {
-  return <header className="header">
+  return (<header className="header">
     <Container>
-
-
       <div className="navigation">
         <div className="logo">
           <h2 className=" d-flex gap-1 align-items-center">
@@ -65,7 +63,7 @@ const Header = () => {
 
       </div>
     </Container>
-  </header>
+  </header>)
 }
 
 export default Header

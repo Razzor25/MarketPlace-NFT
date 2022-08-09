@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1111111;
+    z-index:1111111;
 }
 
 .navigation{
@@ -47,7 +47,6 @@
 
 .nav__right .btn{
     padding: 7px 25px;
-    /* background-clip: text; */
     border: 2px solid #E250E5;
     border-radius: 30px;
 }
