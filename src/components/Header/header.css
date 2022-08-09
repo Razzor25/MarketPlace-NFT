@@ -24,7 +24,7 @@
 
 
 .nav__item a:hover{
-    color:rgb(199, 129, 199);
+    color:#0109fe;
 }
 
 .active{
@@ -38,7 +38,7 @@
 }
 .logo h2,.logo i{
     user-select: none;
-    background: linear-gradient(-45deg, #E250E5, #4B50E6, #4B50E6,#4B50E6);
+    background: linear-gradient(-45deg, #0109fe , #0008ff,#0008ff);
     background-clip: text;
     -webkit-text-stroke: 3px transparent;
     -webkit-text-fill-color: rgb(0, 0, 0);
