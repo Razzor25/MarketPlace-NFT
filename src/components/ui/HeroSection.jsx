@@ -2,6 +2,7 @@ import React from 'react'
 import {Container,Row,Col} from 'reactstrap'
 import {Link} from 'react-router-dom'
 import './hero-section.css'
+import heroImg from '../../Images/myhero.png'
 
 const HeroSection = () => {
   return <section className="hero__section">
@@ -16,6 +17,13 @@ const HeroSection = () => {
                 <button className="btn1"><i class="ri-edit-2-fill"></i> <Link to='/create'>Self Craft</Link></button>
                 </div>
             </Col>
+
+            <Col lg='6' md='6'>
+                <div className='hero__img'>
+                <img src={heroImg} alt="" className='w-75 h-75'></img>
+                </div>
+            </Col>
+
         </Row>
     </Container>
   </section>
