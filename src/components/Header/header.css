@@ -5,7 +5,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index:1111111;
+    z-index:1;
+    /* background-color: #14141f; */
 }
 
 .navigation{
