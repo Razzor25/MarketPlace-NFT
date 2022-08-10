@@ -122,7 +122,7 @@ const Footer = () => {
                   </div>
             </Col>
             <Col lg='12' sm='12' md='12' className='mt-5 text-center'>
-              <p style={{fontSize:'.9rem'}}>Developed by Satya Roy All  Rights Resevred. <i class="ri-copyright-line"></i> Copyrights 2022.</p>
+              <p style={{fontSize:'.9rem'}}>Developed by Satya Roy All  Rights Resevred © Copyright 2022.</p>
             </Col>
           </Row>
         </Container>

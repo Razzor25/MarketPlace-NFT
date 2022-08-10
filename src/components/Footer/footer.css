@@ -1,5 +1,6 @@
 .footer{
 font-size: 1rem;
+/* background: black; */
 }
 .list__item{
 background: transparent;
@@ -31,6 +32,9 @@ border: none;
     outline: none;
     margin: 30px 0 10px 0;
     font-size: .8rem;
+}
+::placeholder{
+    color: rgb(181, 28, 28);
 }
 .updates button{
     width: 15%;
