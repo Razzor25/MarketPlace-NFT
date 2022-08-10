@@ -1,6 +1,10 @@
 .footer{
-font-size: 1rem;
-/* background: black; */
+background-color: #000;
+padding: 20px;
+margin-top: 70px;
+}
+.footer h5{
+font-size: 1.2rem;
 }
 .list__item{
 background: transparent;
