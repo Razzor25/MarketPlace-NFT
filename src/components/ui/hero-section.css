@@ -64,11 +64,12 @@ margin-top: 25px;
     width: 500px;
     margin:35px 0px 0px 10px;
     transform-origin: center;
-    transition: 2s;
+    transition: 1s;
     opacity: 0.4;
     
 }
 .hero__img:hover {
+    overflow: hidden;
     cursor: pointer;
     transform: rotateX(360deg);
     opacity: 1;
@@ -77,17 +78,21 @@ margin-top: 25px;
 @media only screen and (min-width:1400px) {
     
     .hero__img{
-        width: 500px;
+        width: 400px;
         margin: auto 300px;
-        transform-origin: center;
-        transition: 3s;
-        opacity: 0.5;
-        
+        transform-origin: all;
+        transition: 1s;
+        opacity: 0.2;
     }
-    .hero__img:hover {
+    .hero__img:hover{
         cursor: pointer;
         transform: rotateY(720deg);
         opacity: 1;
         -webkit-box-reflect: left 0px;
     }
+   .hero__img:hover img{
+    border-bottom-right-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+    overflow: hidden;
+   }
 }
