@@ -82,15 +82,15 @@ margin-top: 35px;
     .hero__img{
         width: 400px;
         margin: auto 300px;
-        transform-origin: all;
-        transition: 1s;
         opacity: 0.2;
     }
     .hero__img:hover{
         cursor: pointer;
+        transition-duration: 2.5s;
         transform: rotateY(720deg);
         opacity: 1;
         -webkit-box-reflect: left 0px;
+        
     }
    .hero__img:hover img{
     border-bottom-right-radius: 50% !important;
