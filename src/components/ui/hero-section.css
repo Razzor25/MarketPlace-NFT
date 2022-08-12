@@ -62,31 +62,32 @@ margin-top: 35px;
     opacity: 1;
     z-index: -1;
 }
-.hero__img{
-    width: 500px;
-    margin:35px 0px 0px 10px;
-    transform-origin: center;
-    transition: 1s;
-    opacity: 0.4;
-    
-}
-.hero__img:hover {
-    overflow: hidden;
-    cursor: pointer;
-    transform: rotateX(360deg);
-    opacity: 1;
-}
+    .hero__img{
+        width: 500px;
+        margin:35px 0px 0px 10px;
+        transform-origin: center;
+        transition: 1s;
+        opacity: 0.4;
+        
+    }
+    .hero__img:hover {
+        overflow: hidden;
+        cursor: pointer;
+        transform: rotateX(360deg);
+        opacity: 1;
+    }
 
 @media only screen and (min-width:1400px) {
     
+
     .hero__img{
         width: 400px;
         margin: auto 300px;
+        transition: 2s;
         opacity: 0.2;
     }
     .hero__img:hover{
         cursor: pointer;
-        transition-duration: 2.5s;
         transform: rotateY(720deg);
         opacity: 1;
         -webkit-box-reflect: left 0px;
