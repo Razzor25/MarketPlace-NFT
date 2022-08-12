@@ -13,7 +13,8 @@
     -webkit-text-stroke: 1px rgb(0, 0, 0,0.5);
 }
 .hero__btns{
-margin-top: 25px;
+
+margin-top: 35px;
 }
 .hero__btns button{
     background: transparent;
