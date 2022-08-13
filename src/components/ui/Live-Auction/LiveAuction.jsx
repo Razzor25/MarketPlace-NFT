@@ -22,7 +22,7 @@ const LiveAuction = () => {
 
 
                 <Col lg='4'>
-                    <div className="single__nft__card">
+                    <div className="single__nft__card w-75">
                         <div className="nft__img">
                             <img src={img01} alt="" className='w-100'/>
                         </div>
@@ -31,21 +31,24 @@ const LiveAuction = () => {
                                 Kynatic Extractor StarShip
                             </h5>
 
-                            <div className="creator__info-wrapper d-flex" >
+                            <div className="creator__info-wrapper d-flex gap-3" >
                                 <div className="creator__img">
                                     <img src={ava01} alt="" className='w-100'/>
                                 </div>
 
-                                <div className="creator__info d-flex">
-                                    <div className='w-50'>
+                                <div className="creator__info d-flex w-100 align-items-center gap-5">
+                                    <div >
                                     <h6>Created By</h6>
                                     <p>Trishi Raj</p>
                                     </div>
 
-                                    <div className='w-50'>
+                                    <div >
                                         <h6>Current Bid</h6>
                                         <p>4.211 ETH</p>
                                     </div>
+                                </div>
+                                <div className='d-flex align-items'>
+
                                 </div>
                             </div>
 

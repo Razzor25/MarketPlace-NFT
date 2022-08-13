@@ -21,3 +21,6 @@
 .creator_info-wrapper{
     text-align: center;
 }
+.creator__info h6{
+    font-size: 1.1rem;
+}
