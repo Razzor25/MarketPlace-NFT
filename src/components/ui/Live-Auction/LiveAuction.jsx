@@ -47,8 +47,10 @@ const LiveAuction = () => {
                                         <p>4.211 ETH</p>
                                     </div>
                                 </div>
-                                <div className='d-flex align-items'>
-
+                                <div className='d-flex align-items-center'>
+                                    <button className='bid__btn d-flex align-items-center gap-2'>
+                                        
+                                    </button>
                                 </div>
                             </div>
 
