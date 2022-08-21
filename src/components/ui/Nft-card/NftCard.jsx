@@ -13,7 +13,7 @@ const NftCard = (props) => {
   </div>
   <div className="nft__content">
       <h5 className='nft__title'>
-          <Link to={`/market/${id}`}>{title}</Link>
+          {title}
       </h5>
 
       <div className="creator__info-wrapper d-flex gap-3" >
@@ -38,8 +38,7 @@ const NftCard = (props) => {
               <button className='bid__btn d-flex align-items-center gap-3'>           
               Place Order
               </button>
-
-              <button className='bid__btn d-flex align-items-center gap-3'> <Link to="#">Veiw details</Link></button>
+              <button className='bid__btn d-flex align-items-center gap-3'> <Link to={`/market/${id}`}>Veiw details</Link></button>
       </div>
   </div>
 </div>
