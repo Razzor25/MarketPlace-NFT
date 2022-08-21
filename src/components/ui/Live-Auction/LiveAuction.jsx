@@ -10,18 +10,14 @@ const LiveAuction = () => {
     <section>
         <Container>
             <Row>
-
-
-                <Col lg='12' className='mb-4'>
+              <Col lg='12' className='mb-4'>
                     <div className="live__auction__top d-flex align-items-center justify-content-between">
                         <h3>Live Auction</h3>
                         <span><Link to='/market'>
                             Explore Market</Link></span>
                     </div>
                 </Col>
-
-
-                <Col lg='4'>
+               <Col lg='4'>
                     <div className="single__nft__card w-75">
                         <div className="nft__img">
                             <img src={img01} alt="" className='w-100'/>
@@ -32,6 +28,7 @@ const LiveAuction = () => {
                             </h5>
 
                             <div className="creator__info-wrapper d-flex gap-3" >
+                                
                                 <div className="creator__img">
                                     <img src={ava01} alt="" className='w-100'/>
                                 </div>
@@ -47,15 +44,15 @@ const LiveAuction = () => {
                                         <p>4.211 ETH</p>
                                     </div>
                                 </div>
-                                <div className='d-flex align-items-center'>
-                                    <button className='bid__btn d-flex align-items-center gap-2'>
-                                        
+                            </div>
+                            <div className='d-flex justify-content-between'>
+                                    <button className='bid__btn d-flex align-items-center gap-2'>           
+                                    Place Order
                                     </button>
-                                </div>
-                            </div>
 
-                            
+                                    <span className='view__details'><Link to="#">Veiw details</Link></span>
                             </div>
+                        </div>
                     </div>
                 </Col>
             </Row>

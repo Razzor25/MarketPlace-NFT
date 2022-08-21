@@ -24,3 +24,19 @@
 .creator__info h6{
     font-size: 1.1rem;
 }
+.bid__btn{
+    color: White;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background: rgb(9, 4, 19);
+    padding: 5px 25px;
+}
+.bid__btn:hover{
+    color: White;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background: rgb(84, 39, 174);
+    padding: 5px 25px;
+}
