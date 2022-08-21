@@ -18,7 +18,7 @@ import ava06 from "../Images/ava-06.png";
 export const NFT__DATA = [
   {
     id: "01",
-    title: "Travel Monkey Club",
+    title: "StarShip Holo-Computer",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img01,
     creator: "Trista Francis",
@@ -28,7 +28,7 @@ export const NFT__DATA = [
 
   {
     id: "02",
-    title: "Sir Lion Swag",
+    title: "StarShip Universe",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img02,
     creator: "Trista Francis",
@@ -38,7 +38,7 @@ export const NFT__DATA = [
 
   {
     id: "03",
-    title: "Civilian",
+    title: "StarShip Life-Support",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
     creator: "Trista Francis",
@@ -48,7 +48,7 @@ export const NFT__DATA = [
 
   {
     id: "04",
-    title: "Guard",
+    title: "StarShip High-Power-Thruster",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img04,
     creator: "Trista Francis",
@@ -58,7 +58,7 @@ export const NFT__DATA = [
 
   {
     id: "05",
-    title: "Travel Monkey Club",
+    title: "StarShip Kyanite-Storage",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img05,
     creator: "Trista Francis",
@@ -68,7 +68,7 @@ export const NFT__DATA = [
 
   {
     id: "06",
-    title: "Sir Lion Swag",
+    title: "StarShip Secondary-Thruster",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img06,
     creator: "Trista Francis",
@@ -78,7 +78,7 @@ export const NFT__DATA = [
 
   {
     id: "07",
-    title: "Civilian",
+    title: "StarShip Shield-System",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
     creator: "Trista Francis",
@@ -88,7 +88,7 @@ export const NFT__DATA = [
 
   {
     id: "08",
-    title: "Guard",
+    title: "StarShip Engine",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img08,
     creator: "Trista Francis",
@@ -98,7 +98,7 @@ export const NFT__DATA = [
 
   {
     id: "09",
-    title: "Travel Monkey Club",
+    title: "StarShip Kyanite-Extractor",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img09,
     creator: "Trista Francis",

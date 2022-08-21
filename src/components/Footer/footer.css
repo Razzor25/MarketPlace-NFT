@@ -1,5 +1,8 @@
 .footer{
 background-color: #000;
+position: relative;
+width: 100%;
+bottom: 0;
 padding: 30px;
 margin-top: 70px;
 }
