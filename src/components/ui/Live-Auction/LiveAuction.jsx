@@ -17,14 +17,15 @@ const LiveAuction = () => {
                             Explore Market</Link></span>
                     </div>
                 </Col>
-               
+                <div className='d-flex flex-wrap'>
                     {
                         NFT__DATA.map((item)=>(
-                            <Col xl="4" lg="6" md="6" sm="12">
+                            <Col xl="4" lg="6" md="6" sm="12" className='d-flex justify-content-around'>
                             <NftCard key={item.id} item={item}/>
                             </ Col>
                         ))
                     }
+                </div>
                
             </Row>
         </Container>

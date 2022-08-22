@@ -7,7 +7,7 @@ const NftCard = (props) => {
     const {title, id, currentBid, creatorImg, imgUrl, creator}=props.item
 
 
-  return <div className="single__nft__card">
+  return <div className="single__nft__card w-75">
   <div className="nft__img">
       <img src={imgUrl} alt="" className='w-100'/>
   </div>
